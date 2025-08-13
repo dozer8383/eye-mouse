@@ -1,5 +1,5 @@
 from eyetrax import GazeEstimator, run_9_point_calibration # pyright: ignore[reportMissingImports]
-from eyetrax.calibration import run_lissajous_calibration # pyright: ignore[reportMissingImports]
+from eyetrax.calibration import run_lissajous_calibration, run_5_point_calibration # pyright: ignore[reportMissingImports]
 from eyetrax.calibration.adaptive import run_adaptive_calibration # pyright: ignore[reportMissingImports]
 from eyetrax.filters import KalmanSmoother, make_kalman # pyright: ignore[reportMissingImports]
 import pyautogui # pyright: ignore[reportMissingModuleSource]
@@ -50,10 +50,10 @@ while True:
 
     avgx = sum(cursoravgx) / len(cursoravgx) if cursoravgx else 0
     avgy = sum(cursoravgy) / len(cursoravgy) if cursoravgy else 0
-    if len(cursoravgx) > 30:
+    if len(cursoravgx) > 15:
         cursoravgx.pop(0)
 
-    if len(cursoravgy) > 30:
+    if len(cursoravgy) > 15:
         cursoravgy.pop(0)
 
     if features is not None and blink:
