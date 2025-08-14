@@ -17,6 +17,7 @@ Look to point, blink (see tips below) to click.
 # Tips for usage
 - Most important: the more contrast your eyes have with your face, the better. When possible, get a lamp or similar to light your face from the front.
 - Get your webcam closer to your face. Make sure most of your face is visible, but you want as much detail as possible to help track subtle eye movements.
+- The higher resolution your webcam is, the better.
 - Avoid moving your head during calibration or use, as this makes the eye tracking more inaccurate. **However**, these inaccuracies can be fixed by focusing on a point on the screen and moving your head until the cursor returns to *roughly* the same area you're focusing on. This requires some practice.
 - Eye Mouse saves your eye movements in a model file that can be reused, but given that any amount of head movement will increase eye tracking error, it's best to delete the model file before every run.
 - When you blink, it's hard to see anything (crazy, I know). This makes clicking on things kind of difficult, since you have to point precisely and then close your eyes for a second, not knowing if you hit your target. Squinting will also trigger a click, and lets you see while you're doing it.
