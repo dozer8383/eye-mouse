@@ -6,7 +6,7 @@ You're _still_ using your arm and hand to move a decades-old computing periphera
 # Installation and Setup
 1. Install EyeTrax and PyAutoGui with `pip install eyetrax` and `pip install pyautogui`.
 2. Get the code for Eye Mouse with `git clone https://github.com/dozer8383/eye-mouse/`.
-3. Run `python3 purelaziness.py`.
+3. `cd eye-mouse` and then run `python3 purelaziness.py`.
 4. Calibration should begin with a green dot on a full black screen. Look at each of the green dots appearing. It's important to not move your head during this calibration to improve the results.
 5. After calibration, there are three more dots that will tune the smoothing algorithm.
 6. After tuning, the cursor will begin to follow your gaze shortly.
