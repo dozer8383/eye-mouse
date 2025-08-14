@@ -21,3 +21,4 @@ Look to point, blink (see tips below) to click.
 - Avoid moving your head during calibration or use, as this makes the eye tracking more inaccurate. **However**, these inaccuracies can be fixed by focusing on a point on the screen and moving your head until the cursor returns to *roughly* the same area you're focusing on. This requires some practice.
 - Eye Mouse saves your eye movements in a model file that can be reused, but given that any amount of head movement will increase eye tracking error, it's best to delete the model file before every run.
 - When you blink, it's hard to see anything (crazy, I know). This makes clicking on things kind of difficult, since you have to point precisely and then close your eyes for a second, not knowing if you hit your target. Squinting will also trigger a click, and lets you see while you're doing it.
+- **One last really helpful tip**: increase the interface scaling in your OS to make buttons bigger and easier to click.
