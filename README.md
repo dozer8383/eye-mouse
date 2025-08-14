@@ -4,6 +4,8 @@ You're _still_ using your arm and hand to move a decades-old computing periphera
 ##### Disclaimer: Eye Mouse is far from perfect and really isn't that great at the moment. This is almost exclusively a fun novelty and will not make you more productive, only less.
 
 # Installation and Setup
+> [!important]
+> You must use Python 3.8 - 3.11 due to Mediapipe compatibility issues with later versions. I've tested it with 3.9.
 1. Install EyeTrax and PyAutoGui with `pip install eyetrax` and `pip install pyautogui`.
 2. Get the code for Eye Mouse with `git clone https://github.com/dozer8383/eye-mouse/`.
 3. `cd eye-mouse` and then run `python3 purelaziness.py`.
